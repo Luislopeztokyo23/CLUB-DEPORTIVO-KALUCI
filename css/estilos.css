@@ -691,7 +691,7 @@ p{
 
 .container-bar #title{
 	position: absolute;
-	background: #1c1c1c;
+	background: #ffffff;
 	padding: 0px 8px;
 	height: 30px;
 	line-height: 30px;
@@ -751,3 +751,14 @@ p{
     margin-bottom:30px;
     line-height:26px !important;
     }
+
+    fieldset {
+        border:6px groove #ccc; /* Borde */
+        background:linear-gradient(to right, hsla(101, 47%, 75%, 0.459), hsla(208, 89%, 45%, 0.664)); /* Color de fondo */
+        color:#000; /* Color del texto de todo el contenido */
+        }
+        legend {
+        text-align:left; /* Puedes cambiarlo por center o right */
+        font-weight:bold; /* Estilo de la fuente del título */
+        color:#61380B; /* Color del título */
+        }
